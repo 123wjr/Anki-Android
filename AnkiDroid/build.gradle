@@ -92,7 +92,7 @@ android {
 
         // Stays until this is in a release: https://github.com/google/desugar_jdk_libs/commit/c01a5446ca13586b801dbba4d83c6821337b3cc2
         if (testReleaseBuild && minSdk < 24) {
-            minSdk 24
+            minSdk 18
         }
 
         // After #13695: change .tests_emulator.yml
